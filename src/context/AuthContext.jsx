@@ -32,17 +32,17 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  const register = async (name, email, password) => {
-    try {
-      const response = await axios.post('/auth/register', { name, email, password });
-      return { success: true, user: response.data.user };
-    } catch (error) {
-      return { 
-        success: false, 
-        error: error.response?.data?.mensaje || 'Error al registrar usuario'
-      };
-    }
-  };
+  const register = async (name, email, password, role = 'user') => { // <-- AÑADE role
+  try {
+    const response = await axios.post('/auth/register', { name, email, password, role }); // <-- PASA role
+    return { success: true, user: response.data.user };
+  } catch (error) {
+    return {
+      success: false,
+      error: error.response?.data?.mensaje || 'Error al registrar usuario'
+    };
+  }
+};
 
   const logout = () => {
     localStorage.removeItem('token');
