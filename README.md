@@ -125,11 +125,6 @@ Backend API: https://ticket-backend-7eva.onrender.com
 
 ---
 
-## 📸 Capturas de Pantalla
-(Pendiente de agregar)
-
----
-
 ## 📝 Autor
 Alex Pérez Soriano
 https://www.linkedin.com/in/alexperezsoriano/
@@ -138,4 +133,4 @@ https://www.linkedin.com/in/alexperezsoriano/
 Septiembre 2026
 
 ## 📄 Licencia
-Este proyecto fue desarrollado como prueba técnica para el Centro Tecnológico Guayaquil.
+Este proyecto fue desarrollado como prueba técnica.
