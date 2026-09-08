@@ -119,12 +119,6 @@ Servicios:
 
 ---
 
-## 🌐 Despliegue en Producción
-Frontend: https://ticket-frontend-app.vercel.app
-Backend API: https://ticket-backend-7eva.onrender.com
-
----
-
 ## 📝 Autor
 Alex Pérez Soriano
 https://www.linkedin.com/in/alexperezsoriano/
